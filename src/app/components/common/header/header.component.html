@@ -1,0 +1,70 @@
+<header class="main_menu">
+   <div class="container">
+      <div class="row align-items-center">
+         <div class="col-3 col-md-2 col-lg-3">
+            <a class="logo" href="index.html">
+               <img src="assets/images/logo.png" />
+            </a>
+         </div>
+         <div class="col-6 col-md-5 col-lg-5 text-md-center">
+            <ul class="nav-left">
+               <li>
+                  <a class="position-relative" routerLink="home" routerLinkActive="activeLink"> Home </a>
+               </li>
+               <li>
+                  <a class="position-relative" routerLink="about" routerLinkActive="activeLink"> About </a>
+               </li>
+               <li>
+                  <a class="position-relative" routerLink="feature" routerLinkActive="activeLink"> Features </a>
+               </li>
+            </ul>
+         </div>
+         <div class="col-3 col-md-5 col-lg-4">
+            <ul class="nav-right">
+               <li class="dropdown">
+                  <button onclick="myFunction()" (click)="dropDown()" class="dropbtn">
+                     <img src="assets/images/flag.png" alt="flag" />
+                     En <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div id="myDropdown" class="dropdown-content">
+                     <a href="javascript:void(0)" (click)="dropDown()">UK</a>
+                     <a href="javascript:void(0)" (click)="dropDown()">UR</a>
+                  </div>
+               </li>
+               <li>
+                  <a class="btn btn-outline-primary" href="javascript:void(0)">
+                     Login
+                  </a>
+               </li>
+               <li>
+                  <a class="btn btn-primary" href="javascript:void(0)"> Signup </a>
+               </li>
+               <li>
+                  <a class="position-relative" href="javascript:void(0)" id="openbtn">
+                     <span class="fa fa-bars"></span>
+                  </a>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </div>
+</header>
+
+<!-- Mobile sidebar -->
+<div id="mySidenav" class="sidenav sidenav-mobile">
+   <ul>
+      <li>
+         <a routerLink="home" routerLinkActive="activeLink">Home </a>
+      </li>
+      <li>
+         <a routerLink="about" routerLinkActive="activeLink">About</a>
+      </li>
+      <li>
+         <a routerLink="feature" routerLinkActive="activeLink">Features </a>
+      </li>
+      <li>
+         <a class="btn btn-outline-primary" href="javascript:void(0)"> Login </a>
+      </li>
+   </ul>
+</div>
+<!-- main -->
