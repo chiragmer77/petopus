@@ -9,26 +9,35 @@
          <div class="col-6 col-md-5 col-lg-5 text-md-center">
             <ul class="nav-left">
                <li>
-                  <a class="position-relative" routerLink="home" routerLinkActive="activeLink"> Home </a>
+                  <a class="position-relative" routerLink="home" routerLinkActive="activeLink">
+                     {{ 'header.home' | translate }}
+                  </a>
                </li>
                <li>
-                  <a class="position-relative" routerLink="about" routerLinkActive="activeLink"> About </a>
+                  <a class="position-relative" routerLink="about" routerLinkActive="activeLink">
+                     {{ 'header.about' | translate }}
+                  </a>
                </li>
                <li>
-                  <a class="position-relative" routerLink="feature" routerLinkActive="activeLink"> Features </a>
+                  <a class="position-relative" routerLink="feature" routerLinkActive="activeLink">
+                     {{ 'header.features' | translate }}
+                  </a>
                </li>
             </ul>
          </div>
          <div class="col-3 col-md-5 col-lg-4">
             <ul class="nav-right">
                <li class="dropdown">
-                  <button onclick="myFunction()" (click)="dropDown()" class="dropbtn">
+                  <button class="dropbtn" (click)="dropDown()">
                      <img src="assets/images/flag.png" alt="flag" />
-                     En <i class="fa fa-caret-down"></i>
+                     En ({{translate.currentLang}})<i class="fa fa-caret-down"></i>
                   </button>
                   <div id="myDropdown" class="dropdown-content">
-                     <a href="javascript:void(0)" (click)="dropDown()">UK</a>
-                     <a href="javascript:void(0)" (click)="dropDown()">UR</a>
+                     <a href="javascript:void(0)" (click)="translate.use(lang);dropDown()"
+                        *ngFor="let lang of translate.getLangs()"
+                        [ngClass]="{'activelang': lang == translate.currentLang}">
+                        {{ lang }}
+                     </a>
                   </div>
                </li>
                <li>

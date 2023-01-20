@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 declare var $: any;
 
 @Component({
@@ -7,9 +8,18 @@ declare var $: any;
   styleUrls: ['./header.component.css'],
 })
 export class HeaderComponent implements OnInit {
-  constructor() { }
+  constructor(
+    public translate: TranslateService
+  ) { }
 
   ngOnInit(): void {
+    this.translate.addLangs(['UK', 'UR']);
+    this.translate.setDefaultLang('UK');
+    const browserLang: any = this.translate.getBrowserLang();
+    this.translate.use(browserLang.match(/UK|UR/) ? browserLang : 'UK');
+
+    console.log(this.translate.currentLang)
+
     $(document).ready(function () {
       $('#openbtn').click(function () {
         $('body').toggleClass('sidemenu');
