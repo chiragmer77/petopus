@@ -16,9 +16,9 @@ export class AppComponent implements OnInit {
     ($(window) as any).scroll(() => {
       const windowTop = $(window).scrollTop() + 1;
       if (windowTop > 50) {
-        $('.main_menu').addClass('sticky animated fadeInDown');
+        $('.main_menu').addClass('sticky');
       } else {
-        $('.main_menu').removeClass('sticky animated fadeInDown');
+        $('.main_menu').removeClass('sticky');
       }
     });
   }

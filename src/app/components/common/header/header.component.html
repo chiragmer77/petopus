@@ -62,16 +62,16 @@
 <!-- Mobile sidebar -->
 <div id="mySidenav" class="sidenav sidenav-mobile">
    <ul>
-      <li>
+      <li (click)="closeSideMenu()">
          <a routerLink="home" routerLinkActive="activeLink">Home </a>
       </li>
-      <li>
+      <li (click)="closeSideMenu()">
          <a routerLink="about" routerLinkActive="activeLink">About</a>
       </li>
-      <li>
+      <li (click)="closeSideMenu()">
          <a routerLink="feature" routerLinkActive="activeLink">Features </a>
       </li>
-      <li>
+      <li (click)="closeSideMenu()">
          <a class="btn btn-outline-primary" href="javascript:void(0)"> Login </a>
       </li>
    </ul>

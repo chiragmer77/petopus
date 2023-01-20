@@ -31,4 +31,10 @@ export class HeaderComponent implements OnInit {
   dropDown() {
     $('#myDropdown').toggleClass('show');
   }
+
+  /** Close side menu */
+  closeSideMenu() {
+    $('body').toggleClass('sidemenu');
+    $('#openbtn .fa').toggleClass('fa-bars').toggleClass('fa-close');
+  }
 }
