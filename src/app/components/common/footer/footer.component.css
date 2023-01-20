@@ -1,0 +1,13 @@
+.footer-links {
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.footer-links:hover {
+  color: black;
+}
+
+.p-15 {
+  padding: 15px;
+}
