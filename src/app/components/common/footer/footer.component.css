@@ -5,9 +5,13 @@
 }
 
 .footer-links:hover {
-  color: black;
+  color: rgb(76, 57, 57);
 }
 
-.p-15 {
-  padding: 15px;
+.pl-15 {
+  padding-right: 30px;
+}
+
+.span {
+  cursor: pointer;
 }

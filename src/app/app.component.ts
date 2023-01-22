@@ -7,6 +7,7 @@ declare var $: any;
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
+
   title = 'petopus-angular';
 
   constructor() { }

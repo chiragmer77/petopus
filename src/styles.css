@@ -456,7 +456,7 @@ header .btn-outline-primary {
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 99999;
+  z-index: 10;
   top: 98px;
   right: 0;
   background: #f9e5e0;
@@ -3583,7 +3583,7 @@ header.sticky .logo img {
   }
 
   .slide-3 {
-    background-image: url(assets/images/slide-tablet-3.png);
+    background-image: url(assets/images/slide-tablet-3-tablet.png);
     background-size: contain !important;
     background-repeat: no-repeat;
   }
@@ -3592,12 +3592,22 @@ header.sticky .logo img {
     height: 1403px;
     align-items: flex-start;
   }
+
+  .hero-section .owl-nav {
+    position: absolute;
+    bottom: 40px;
+    left: 42%;
+  }
 }
 
 @media only screen and (max-width: 767px) {
   footer h6 {
     margin-bottom: 10px;
     margin-top: 30px;
+  }
+
+  .p-15 {
+    padding-left: 0;
   }
 
   footer ul li a,
@@ -3867,7 +3877,7 @@ header.sticky .logo img {
   }
 
   .slide-3 {
-    background-image: url(assets/images/slide-mb-3.png);
+    background-image: url(assets/images/slide-tablet-3-tablet.png);
     text-align: left;
     padding-top: 250px !important;
     background-size: contain !important;
@@ -3885,6 +3895,12 @@ header.sticky .logo img {
     font-size: 30px;
     line-height: 48px;
   }
+
+  .hero-section .owl-nav {
+    position: absolute;
+    bottom: 40px;
+    left: 42%;
+  }
 }
 
 @media only screen and (max-width: 576px) {
@@ -3895,6 +3911,10 @@ header.sticky .logo img {
   .main-heading {
     font-size: 22px;
     line-height: 31px;
+  }
+
+  .p-15 {
+    padding-left: 0;
   }
 
   .sub-heading {
@@ -4022,8 +4042,9 @@ header.sticky .logo img {
 
   .hero-section .owl-nav {
     position: absolute;
-    bottom: 60px;
-    left: 45px;
+    bottom: 40px;
+    left: 150px;
+    top: 88%;
   }
 
   .hero-section.feature-bg {
@@ -4449,4 +4470,9 @@ header.sticky .logo img {
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
   background: #ff5e3a !important;
+}
+
+.p-15 {
+  padding: 15px;
+  padding-left: 130px;
 }
