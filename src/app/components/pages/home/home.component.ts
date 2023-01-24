@@ -18,7 +18,7 @@ export class HomeComponent implements OnInit {
     loop: true,
     autoplay: false,
     autoplayHoverPause: false,
-    mouseDrag: true,
+    mouseDrag: false,
     dots: false,
     autoplayTimeout: 6000,
     autoplaySpeed: 4000,

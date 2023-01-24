@@ -29,14 +29,24 @@
             <ul class="nav-right">
                <li class="dropdown">
                   <button class="dropbtn" (click)="dropDown()">
-                     <img src="assets/images/flag.png" alt="flag" />
-                     En ({{translate.currentLang}})<i class="fa fa-caret-down"></i>
+                     <img src="assets/images/flag.png" *ngIf="translate.currentLang == 'UK'" alt="flag" />
+
+                     <img src="assets/images/canada.png" *ngIf="translate.currentLang == 'UR'" alt="flag" />
+                     {{language.defualtLanguage}}
+                     <i class="fa fa-caret-down"></i>
                   </button>
                   <div id="myDropdown" class="dropdown-content">
-                     <a href="javascript:void(0)" (click)="translate.use(lang);dropDown()"
+                     <a href="javascript:void(0)" (click)="translate.use(lang);dropDown();changeLanguage(lang)"
                         *ngFor="let lang of translate.getLangs()"
                         [ngClass]="{'activelang': lang == translate.currentLang}">
-                        {{ lang }}
+
+                        <span *ngIf="lang == 'UK'">
+                           EN (English)
+                        </span>
+
+                        <span *ngIf="lang == 'UR'">
+                           FR (French)
+                        </span>
                      </a>
                   </div>
                </li>

@@ -1049,6 +1049,7 @@ header .badge-danger {
   cursor: pointer;
   display: flex;
   align-items: center;
+  /* width: 165px; */
 }
 
 .dropbtn img {
@@ -3541,7 +3542,8 @@ header.sticky .logo img {
   }
 
   .slide-1 {
-    background-image: url(assets/images/hero-tablet.png);
+    background-image: url(assets/images/hero-tablet_1_1000x1200.png);
+    background-position: 37% 20% !important;
   }
 
   .hero-section .item.slide-2,
@@ -3787,6 +3789,7 @@ header.sticky .logo img {
 
   .hero-section {
     padding-top: 118px;
+    background-position: 55% 75% !important;
   }
 
   .about .main-heading,
@@ -4012,7 +4015,8 @@ header.sticky .logo img {
   }
 
   .hero-section .item.slide-1 {
-    height: 790px;
+    /* height: 790px; */
+    height: 675px;
   }
 
   .slide-2,
