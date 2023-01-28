@@ -728,6 +728,12 @@ header .badge-danger {
   margin-top: -120px;
 }
 
+.device-list-hover:hover span {
+  color: #ff5e3a;
+  background: #fff;
+  border: 2px solid #ff5e3a;
+}
+
 .owl-nav button {
   position: absolute;
   top: 50%;
@@ -990,6 +996,22 @@ header .badge-danger {
   background-repeat: no-repeat;
   height: 65px;
   margin-bottom: 15px;
+}
+
+.feature-block :hover.card .icon-block {
+  background-image: url(assets/images/icon-bg1.png);
+  background-position: center;
+  padding: 12px;
+  text-align: center;
+  background-size: contain;
+  display: block;
+  background-repeat: no-repeat;
+  height: 65px;
+  margin-bottom: 15px;
+}
+
+.image-icon :hover i {
+  color: #ff5e3a !important;
 }
 
 .feature-block .card .icon-arrow-left {
@@ -1543,6 +1565,13 @@ header.sticky .logo img {
   margin-right: 5px;
   border-radius: 50px;
   box-shadow: 0 1px 10px #4a47471c;
+}
+
+.swiper-button-prev .fa-angle-left {
+  color: #919191 !important;
+}
+.swiper-button-prev:hover {
+  background: #ff5e3a;
 }
 
 .swiper-button-next,

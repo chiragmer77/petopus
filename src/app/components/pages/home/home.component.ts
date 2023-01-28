@@ -13,6 +13,8 @@ declare function swiperInit(): void;
   styleUrls: ['./home.component.css'],
 })
 export class HomeComponent implements OnInit {
+  srcIcon: string = './assets/images/icon-bg.png'
+
   bannerSliderOptions: OwlOptions = {
     margin: 15,
     loop: true,
@@ -166,5 +168,9 @@ export class HomeComponent implements OnInit {
 
   beforeChange(e: any) {
     console.log('beforeChange');
+  }
+
+  mouseEnter() {
+    console.log("test")
   }
 }

@@ -20,7 +20,7 @@ export class HeaderComponent implements OnInit {
     this.translate.setDefaultLang('UK');
     const browserLang: any = this.translate.getBrowserLang();
     this.translate.use(browserLang.match(/UK|UR/) ? browserLang : 'UK');
-    this.language.defualtLanguage = 'EN (English)'
+    this.language.defualtLanguage = 'EN'
     console.log(this.translate.currentLang)
 
     $(document).ready(function () {
@@ -44,9 +44,9 @@ export class HeaderComponent implements OnInit {
   /** Change language */
   changeLanguage(lang: any) {
     if (lang == 'UR') {
-      this.language.defualtLanguage = 'FR (French)';
+      this.language.defualtLanguage = 'FR';
     } else {
-      this.language.defualtLanguage = 'EN (English)';
+      this.language.defualtLanguage = 'EN';
     }
     console.log(lang)
   }
