@@ -1,3 +1,8 @@
 .activelang {
   background-color: #ddd !important;
 }
+
+.fa-globe {
+  font-size: 23px;
+  padding-right: 8px;
+}

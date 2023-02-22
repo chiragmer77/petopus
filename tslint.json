@@ -1,0 +1,24 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint:recommended"],
+  "jsRules": {},
+  "rules": {
+    "no-trailing-whitespace": true,
+    "no-console": [true, "debug", "info", "time", "timeEnd", "trace"],
+    "semicolon": [true, "always"],
+    "triple-equals": [true, "allow-null-check"],
+    "typeof-compare": true,
+    "quotemark": [true, "single", "jsx-double", "avoid-escape"],
+    "typedef-whitespace": [
+      true,
+      {
+        "call-signature": "nospace",
+        "index-signature": "nospace",
+        "parameter": "nospace",
+        "property-declaration": "nospace",
+        "variable-declaration": "nospace"
+      }
+    ]
+  },
+  "rulesDirectory": []
+}
