@@ -18,7 +18,7 @@ export class HomeComponent implements OnInit {
   bannerSliderOptions: OwlOptions = {
     margin: 15,
     loop: true,
-    autoplay: false,
+    autoplay: true,
     autoplayHoverPause: false,
     mouseDrag: false,
     dots: false,
