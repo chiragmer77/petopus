@@ -16,7 +16,7 @@ export class HeaderComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-    this.translate.addLangs(['UK', 'UR']);
+    this.translate.addLangs(['UK', 'UR', 'ITA', 'ESP', 'PT', 'DE', 'JPN', 'KR', 'CN', 'RU', 'SA', 'PH']);
     this.translate.setDefaultLang('UK');
     const browserLang: any = this.translate.getBrowserLang();
     this.translate.use(browserLang.match(/UK|UR/) ? browserLang : 'UK');
@@ -45,8 +45,10 @@ export class HeaderComponent implements OnInit {
   changeLanguage(lang: any) {
     if (lang == 'UR') {
       this.language.defualtLanguage = 'FR';
-    } else {
+    } else if (lang == 'EN') {
       this.language.defualtLanguage = 'EN';
+    } else {
+      this.language.defualtLanguage = lang;
     }
     console.log(lang)
   }

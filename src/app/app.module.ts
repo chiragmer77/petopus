@@ -19,6 +19,8 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
+import { AgmCoreModule } from '@agm/core';
+import { LocationService } from './services/location.service';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -50,9 +52,14 @@ export function HttpLoaderFactory(http: HttpClient) {
         useFactory: HttpLoaderFactory,
         deps: [HttpClient]
       }
-    })
+    }),
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyAV0j-imLFwoEcRaCTHDVl0o9Tj6Mj7fZM'
+    }),
   ],
-  providers: [],
+  providers: [
+    LocationService,
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
