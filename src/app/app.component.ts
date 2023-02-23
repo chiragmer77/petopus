@@ -38,7 +38,7 @@ export class AppComponent implements OnInit {
   /** Get current location */
   getCurrentLocation = () => {
     this.locService.get().subscribe((res: { add: { components: AddressComponents[], formatted_address: string }; position_latitude: number; position_longitude: number; }) => {
-      console.log("res>>>>>>>>>", res);
+      console.log("res>>>>>>>>>>", res);
 
       let address: any = res.add
 
