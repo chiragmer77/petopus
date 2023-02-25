@@ -54,7 +54,7 @@ export function HttpLoaderFactory(http: HttpClient) {
       }
     }),
     AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyAV0j-imLFwoEcRaCTHDVl0o9Tj6Mj7fZM'
+      apiKey: 'AIzaSyCvp1cwbQg_LYwZQzQpWeL4U8gRFvV-HE4'
     }),
   ],
   providers: [

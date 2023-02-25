@@ -7,51 +7,79 @@
     "signup": "S'inscrire"
   },
   "home": {
-    "Herosection": "Petopus",
-    "HerosectionSlider2": "Petopus Brings Joy to The Community!",
-    "HerosectionSlider3": "Pawshake in Petopus to flourish your career!",
-    "Herosection1": "Le meilleur réseau social pour les animaux de compagnie et leurs amoureux",
+    "Herosection": "Bienvenue à Petopus !",
+    "HerosectionSlider2": "Petopus apporte de la joie à la communauté !",
+    "HerosectionSlider3": "Pawshake à Petopus pour faire prospérer votre carrière !",
+    "Herosection1": "Un réseau social idéal pour tous les amoureux des animaux de compagnie pour trouver de beaux amis à proximité.",
     "Herosection2": "Connectez-vous pour continuer",
-    "Herosection3": "Une plate-forme où les propriétaires d'animaux, les amoureux des animaux et les professionnels des animaux ont une relation amicale de réseautage social",
-    "Herosection4": "La plateforme la plus conviviale pour les amoureux des animaux",
+    "Herosection3": "Un endroit sûr pour les propriétaires d'animaux actuels et potentiels qui souhaitent créer un merveilleux réseau social.",
+    "Herosection4": "Petopus est une communauté incroyable où aucun amoureux des animaux n'est laissé pour compte.",
     "Herosection5": "“Les yeux d'un animal ont le pouvoir de parler un grand langage”",
     "Herosection6": "Mauvaise humeur",
+
     "Herosection7": "Votre copain vous apportera toujours de la joie",
+
     "Herosection8": "Copain pour la vie",
+
     "Herosection9": "Courageux, protecteur, fiable…. Le vrai copain pour la vie",
-    "Herosection10": "Un endroit idéal pour les professionnels des animaux de compagnie pour grandir et développer une relation amicale de réseautage social",
-    "Herosection11": "Soyez connecté et construisez votre succès",
+
+    "Herosection10": "Une communauté d'amoureux des animaux de compagnie où vous pouvez façonner votre succès en tant que professionnel des animaux de compagnie ou propriétaire d'une entreprise du quartier.",
+
+    "Herosection11": "Petopus vous aide à posséder la plate-forme et à prospérer plus haut.",
+
     "Herosection12": "“Les yeux d'un animal ont le pouvoir de parler un grand langage”",
+
     "Herosection13": "Soins affectueux",
+
     "Herosection14": "Le meilleur soignant pour votre meilleur ami",
-    "Ourpartners": "Nos partenaires de confiance",
-    "Ourpartner1": "Rejoignez une nouvelle communauté dynamique d'amoureux des animaux et devenez partenaire. Pour plus d'informations",
-    "Latestproduct": "Quelques fonctionnalités impressionnantes",
-    "Latestproduct1": "Petopus est l'endroit le plus convivial pour les professionnels des animaux de compagnie",
+
+    "Ourpartners": "Nos collaborations fiables",
+
+    "Ourpartner1": "Rejoignez un groupe animé d'amoureux des animaux et devenez partenaire.",
+
+    "Latestproduct": "Caractéristiques Pawsome de Petopus",
+
+    "Latestproduct1": "Si vous êtes un professionnel, Petopus peut être une opportunité pour vous d'étendre votre succès.",
+
     "Latestproduct2": "pour booster leur réussite.",
-    "Latestproduct3": "Entreprises locales",
-    "Latestproduct4": "Vous êtes une entreprise locale, ne manquez rien de votre client",
-    "Latestproduct5": "Bobble d'affaires",
-    "Latestproduct6": "Créez votre business bobble et profitez du succès",
-    "Latestproduct7": "Passez en revue cette matière",
-    "Latestproduct8": "Apprenez de votre avis client et réinventez votre entreprise",
-    "Latestproduct10": "Activités de groupes",
-    "Latestproduct11": "Créez des groupes d'activités avec votre client",
-    "Latestproduct12": "Publication d'événements",
-    "Latestproduct13": "Créez un événement, faites la promotion de votre nom et renforcez votre marque",
-    "Latestproduct14": "Affichage des notifications",
-    "Latestproduct15": "Notification intelligente pour que votre client soit alerte",
-    "Latestproduct16": "Votre animal devient social avec Octopus",
-    "Latestproduct17": "Partagez le profil de votre animal avec votre famille et vos amis",
-    "Latestproduct18": "et avoir une expérience splendide.",
+
+    "Latestproduct3": "Floof votre réussite professionnelle",
+
+    "Latestproduct4": "Créez un compte professionnel pour les services liés aux animaux de compagnie et prospérez.",
+
+    "Latestproduct5": "Gardez une trace de votre entreprise locale",
+
+    "Latestproduct6": "Ne manquez jamais une notification de clients potentiels à proximité.",
+
+    "Latestproduct7": "Obtenez un avis 5 étoiles",
+    "Latestproduct8": "Obtenez des commentaires positifs des clients pour votre service qui aide votre entreprise à se développer.",
+
+    "Latestproduct10": "Participez à la communauté",
+    "Latestproduct11": "Rejoignez les activités de groupe avec les clients et augmentez votre portée.",
+
+    "Latestproduct12": "Organiser des événements et promouvoir",
+    "Latestproduct13": "Parrainez des événements sociaux pour les propriétaires d'animaux avec leurs animaux de compagnie et obtenez une meilleure exposition de la marque.",
+
+    "Latestproduct14": "Notification de vue rapide",
+    "Latestproduct15": "Petopus enables smart notification viewing to keep your customers alert.",
+
+    "Latestproduct16": "Faites de votre woofer une personnalité mondaine",
+    "Latestproduct17": "Créez un profil de réseau social pour animaux de compagnie dans Petopus, taguez-le avec votre famille et vos amis,",
+
+    "Latestproduct18": "et laissez refroidir les fourrures.",
+
     "OurService": "Discuter",
-    "OurService1": "Connectez-vous avec des amoureux des animaux, discutez, échangez des vues ou des conseils sur la façon de rendre votre animal plus heureux",
-    "OurService2": "Groupe d'animaux",
-    "OurService3": "Restez en contact avec des propriétaires d'animaux comme vous. Créez des activités au sein de votre groupe et partagez votre passion",
-    "OurService4": "Importer des images",
-    "OurService5": "Partagez les photos et vidéos de votre animal de compagnie avec vos amis, votre famille et vos abonnés >",
+    "OurService1": "Connectez-vous avec des amoureux des animaux de compagnie, discutez avec eux, échangez des moments intéressants avec des animaux de compagnie et partagez des conseils qui peuvent faire de votre animal un haricot heureux.",
+
+    "OurService2": "Communauté",
+    "OurService3": "Rejoignez les groupes d'animaux de compagnie et restez en contact avec les propriétaires d'animaux, créez des activités au sein de la communauté et partagez des moments mignons.",
+
+    "OurService4": "Partager des photos",
+    "OurService5": "Cliquez sur les images ou les vidéos ridiculement parfaites de votre animal de compagnie, partagez-les dans Petopus et transformez-les en socialites.",
+
     "OurService6": "Perdu trouvé",
-    "OurService7": "Obtenez l'aide de la communauté pour trouver votre charmant animal avec une notification de couleur, pas de son, du buzz ou du tintement. Juste parfait.",
+    "OurService7": "Envoyez une notification SOS à la communauté si votre adorable animal de compagnie se perd ou rejoignez-le pour aider les autres à retrouver leurs animaux de compagnie.",
+
     "Favoritedevice": "Proche",
     "Favoritedevice1": "Trouvez les meilleurs professionnels, amoureux des animaux et activités dans votre quartier",
     "Favoritedevice2": "Date de jeu de l'animal",
