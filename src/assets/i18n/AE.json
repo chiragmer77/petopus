@@ -1,84 +1,69 @@
 {
   "header": {
-    "home": "Home",
-    "about": "About",
-    "features": "Features",
-    "login": "Login",
-    "signup": "Signup"
+    "home": "بيت",
+    "about": "عن",
+    "features": "سمات",
+    "login": "تسجيل الدخول",
+    "signup": "اشتراك"
   },
   "home": {
-    "Herosection": "Welcome to Petopus!",
-    "HerosectionSlider2": "Petopus Brings Joy to The Community!",
-    "HerosectionSlider3": "Pawshake in Petopus to flourish your career!",
-    "Herosection1": "An ideal social network for every pet lover to find bonny friends nearby.",
-    "Herosection2": "Login to continue",
-    "Herosection3": " A safe place for current and potential pet owners who want to create a wonderful social network.",
-    "Herosection4": "Petopus is an amazing community where no pet lovers are left behind.",
-    "Herosection5": "“An animal's eyes have the power to speak a great language”",
-    "Herosection6": "Low Mood",
-    "Herosection7": "Your Buddy will always bring Joy to you",
-    "Herosection8": "Buddy for Life",
-    "Herosection9": "Brave, protective, reliable…. The true Buddy for life",
-    "Herosection10": "A pet lovers’ community where you can craft your success as a pet professional or a business owner from the neighborhood.",
-    "Herosection11": "Petopus helps you to own the platform and thrive higher. ",
-    "Herosection12": "“An animal's eyes have the power to speak a great language”",
-    "Herosection13": "Loving care",
-    "Herosection14": "The best caregiver for your best friend",
-    "Ourpartners": "Our Reliable Collaborations",
-    "Ourpartner1": "Join a lively group of animal lovers and become a partner.",
-    "Latestproduct": "Pawsome Features of Petopus",
-    "Latestproduct1": "If you are a professional, Petopus can be an opportunity for you to expand your success.",
-    "Latestproduct2": "to boost their success.",
-    "Latestproduct3": "Floof your professional success",
-    "Latestproduct4": "Create a business account for pet-related services and flourish.",
-    "Latestproduct5": "Keep track of your local business",
-    "Latestproduct6": "Never miss a notification from potential customers nearby.",
-
-    "Latestproduct7": "Earn a 5-star review",
-    "Latestproduct8": "Get positive customer feedback for your service that helps your business to grow.",
-
-    "Latestproduct10": "Partake in the community",
-    "Latestproduct11": "Join the group activities with the customers and increase your reach.",
-
-    "Latestproduct12": "Arrange events and promote",
-    "Latestproduct13": "Sponsor social events for pet owners along with their pets and get better brand exposure.",
-
-    "Latestproduct14": "Quick view notification",
-    "Latestproduct15": "Petopus enables smart notification viewing to keep your customers alert.",
-
+    "Herosection": "مرحبا بكم في بيتوبوس!",
+    "HerosectionSlider2": "بيتوبوس يجلب الفرح للمجتمع!",
+    "HerosectionSlider3": "Pawshake في Petopus لتزدهر حياتك المهنية!",
+    "Herosection1": "شبكة اجتماعية مثالية لكل محب للحيوانات الأليفة للعثور على أصدقاء لطيفين في الجوار.",
+    "Herosection2": "تسجيل الدخول للمتابعة",
+    "Herosection3": " مكان آمن لأصحاب الحيوانات الأليفة الحاليين والمحتملين الذين يرغبون في إنشاء شبكة اجتماعية رائعة.",
+    "Herosection4": "Petopus هو مجتمع مدهش حيث لا يوجد عشاق للحيوانات الأليفة.",
+    "Herosection5": "عيون الحيوان لديها القدرة على التحدث بلغة رائعة",
+    "Herosection6": "مزاج سيء",
+    "Herosection7": "سوف يجلب لك صديقك السعادة دائمًا",
+    "Herosection8": "الصديق مدى الحياة",
+    "Herosection9": "شجاع ، وقائي ، وموثوق…. الصديق الحقيقي مدى الحياة",
+    "Herosection10": "منتدى لعشاق الحيوانات الأليفة حيث يمكنك صياغة نجاحك كمحترف للحيوانات الأليفة أو صاحب عمل من الحي.",
+    "Herosection11": "يساعدك Petopus على امتلاك النظام الأساسي والازدهار أعلى.",
+    "Herosection12": "عيون الحيوان لديها القدرة على التحدث بلغة رائعة",
+    "Herosection13": "حب الرعايه",
+    "Herosection14": "أفضل مقدم رعاية لصديقك المفضل",
+    "Ourpartners": "تعاوناتنا الموثوقة",
+    "Ourpartner1": "انضم إلى مجموعة مفعمة بالحيوية من محبي الحيوانات وكن شريكًا.",
+    "Latestproduct": "ملامح Pawsome من Petopus",
+    "Latestproduct1": "إذا كنت محترفًا ، يمكن أن تكون Petopus فرصة لك لتوسيع نطاق نجاحك.",
+    "Latestproduct2": "لتعزيز نجاحهم.",
+    "Latestproduct3": "فلووف نجاحك المهني",
+    "Latestproduct4": "أنشئ حسابًا تجاريًا للخدمات المتعلقة بالحيوانات الأليفة وازدهر.",
+    "Latestproduct5": "تتبع عملك المحلي",
+    "Latestproduct6": "لا تفوت أي إشعار من العملاء المحتملين القريبين منك.",
+    "Latestproduct7": "احصل على تقييم 5 نجوم",
+    "Latestproduct8": "احصل على تعليقات العملاء الإيجابية على خدمتك التي تساعد عملك على النمو.",
+    "Latestproduct10": "شارك في المجتمع",
+    "Latestproduct11": "انضم إلى أنشطة المجموعة مع العملاء وزد من وصولك.",
+    "Latestproduct12": "ترتيب الأحداث والترويج",
+    "Latestproduct13": "قم برعاية الأحداث الاجتماعية لأصحاب الحيوانات الأليفة جنبًا إلى جنب مع حيواناتهم الأليفة واحصل على عرض أفضل للعلامة التجارية.",
+    "Latestproduct14": "إخطار العرض السريع",
+    "Latestproduct15": "يتيح Petopus عرض الإخطار الذكي لإبقاء عملائك في حالة تأهب.",
     "Latestproduct16": "Make Your Woofer A Socialite",
     "Latestproduct17": "Create a pet social media profile in Petopus, tag it with your family and friends,",
     "Latestproduct18": "and let the furs chill.",
-
     "OurService": "Chat",
     "OurService1": "Connect with pet lovers, chat with them, exchange interesting pet moments, and share tips that can make your pet a happy bean. ",
-
     "OurService2": "Community",
     "OurService3": "Join the pet groups and stay connected with the pet owners, create activities within the community, and share cute moments. ",
-
     "OurService4": "Share Photos",
     "OurService5": "Click the ridiculously purfect pictures or videos of your pet, share those in Petopus, and turn them into socialites.",
-
     "OurService6": "Lost & Found",
     "OurService7": "Send an SOS notification to the community if your lovely pet gets lost or join to help others in finding their pets.",
-
     "Favoritedevice": "Furrnds Nearby",
     "Favoritedevice1": "Find some furry friends and lovers for your pets in your neighborhood, join the activities, and let them socialize.",
-
     "Favoritedevice2": "Celebrate Fluffys",
     "Favoritedevice3": "Arrange fluffs meet and greet, birthdays or organize a play date for your pets and let them enjoy.",
-
     "Favoritedevice4": "Get Petopus on Any Device",
     "Favoritedevice5": "Share your favorite pet moments anytime. It is a fully optimized platform to give you the ultimate social networking experience",
     "Favoritedevice6": "using desktop, laptop, and mobile.",
-
     "Finalprofessional": "User Friendly",
     "Finalprofessional1": "Device Friendly",
     "Finalprofessional2": "Secured And Easy To Use",
-
     "Finalprofessional3": "Find Professional Help for Your Pets",
     "Finalprofessional4": "Get in touch with the community of skilled and passionate professionals who cares about your pet.",
-
     "Finalprofessional5": "Pet Association And NGO",
     "Finalprofessional6": "Pet Health Service Providers",
     "Finalprofessional7": "Pet Groomers, Sitters, Dag Walkers,",
@@ -101,19 +86,15 @@
     "aboutFront": "Your Pet Can Be A Star in Petopus",
     "aboutFront1": "Bring any of your pets into this pet social media platform and let them socialize with their furrnds from the neighborhood. ",
     "aboutFront2": "Petopus is a family friendly social network platform for pet lovers",
-
     "Greatpet": "A Happy Place for Pet Parents",
     "Greatpet1": "Build a satisfied community on Petopus pet social media to share infinite pet moments and happiness by making connections and maintaining a friendly relationship with all the pet parents in the app. ",
     "Greatpet2": "At Petopus, pet lovers have a new way to stay connected and experience a secured and meaningful social networking experience. It is a platform where pets are the center stage",
     "Greatpet3": "Learn More",
-
     "Friendlyandmore": " Make Friends and Let Them Too",
     "Friendlyandmore1": "Experience the most satisfying and positive pet-centric social media network in Petopus where you can create meaningful connections with others and get services from trusted pet professionals. ",
     "Friendlyandmore2": "It’s the soul of the social network.",
-
     "Professionals": "Qualified Professionals Who Care",
     "Professionals1": "Get immediate help and personalized suggestions in Petopus from qualified professionals who cares about animals so that your pets can be in a safe hand for any recommendation. ",
-
     "Secure": "Secured and Easy-to-Use Platform",
     "Secure1": "Create a pet/ professional/ guest profile and share posts in Petopus with assured security and privacy so you can make your pets the center of attention by socially sharing their mutual love, and ridiculousness easily."
   },
@@ -121,23 +102,17 @@
   "features": {
     "featuresfront": "Bring Your Business To Petopus Pet Community",
     "featuresfront1": "Use the opportunities to promote your pet shop businesses and services in this great social network of passionate pet lovers.",
-
     "Greatfeature": "The Borking Features",
     "Greatfeature1": "Petopus is a user-friendly pet social networking platform that has been built with the latest technology so that your pets can find friends and professional help in need.",
-
     "Greatfeature2": "Build Zoomies Community ",
     "Greatfeature3": "Create a group in Petopus and build a community of the same interest to share activities and funny moments.",
-
     "Swipeprofile": "Create Pupper Profiles",
     "Swipeprofile1": "Set a maximum of 5 different pet profiles for 5 different pets and manage them altogether simply by swiping.",
-
     "Discover": "Discover",
     "Discover1": "Discover Floofs Nearby",
     "Discover2": "Look for the social events and activities happening in your neighborhood and let your pets socialize.",
-
     "Notificationalert": "Boopy Color Notifications",
     "Notificationalert1": "Get lost and found color notification alerts without any sound or click-clank or buzz from the pet community.",
-
     "Notificationalert2": "Your current Alert",
     "Notificationalert3": "Create Alert",
     "Notificationalert4": "Lost My Cat Joeda",
@@ -145,41 +120,36 @@
     "Notificationalert6": "Please check your garage and sheds in case she is there. You can find Joeda profile here",
     "Notificationalert7": "petopus/Joeda",
     "Notificationalert8": "Alert Details",
-
     "Pethealthcar": "Boof Care and Service",
     "Pethealthcar1": "Find professional pet health care and service providers and walkers from Petopus social network.",
-
     "Localbusinesse": "Opportunities for Local Businesses",
     "Localbusinesse1": "Putopus empowers local businesses and gives opportunities to boost your success.",
-
     "Localbusinesse2": "Post Shoutouts for Events",
     "Localbusinesse3": "Publish shoutouts for events, plans, and activities, or promote your local business to grow in the friendliest community and social network of pet lovers.",
-
     "PetHealth": "Intelligent Dog",
     "PetHealth1": "26 March 2020",
     "PetHealth2": "By John Heist",
     "PetHealth3": "(Pet Therapist)",
     "PetHealth4": "Dogs have demonstrated they can learn and do complex things we have never..",
     "PetHealth5": "Subscribe",
-
     "PetHealth6": "Post Articles Share Awareness",
     "PetHealth7": "Publish articles about pets and related topics and share awareness among the pet parents in the community to create smart connections with the owners.",
-
     "ReviewThatMatter": "Post Reviews of Service",
     "ReviewThatMatter1": "Publish about your professional pet services and get 5-star reviews from your happy and satisfied clients and share their stories to expand your business relationship."
   },
+
   "footer": {
-    "footer": "Subscribe To Our Newsletter",
-    "footer1": "Get notification about tips, new features and exclusive promo news just for you.",
-    "footer2": "Subscibe",
-    "footer3": "About Us",
-    "footer4": "Contact Us",
-    "footer5": "Sponsofhip & Partners",
-    "footer6": "Invite a friend",
-    "footer7": "Help & Support",
-    "footer8": "Feedback",
-    "footer9": " Privacy Policy",
-    "footer10": "Term of use & Condition",
-    "footer11": "@2023 Pet Opus Inc. All Right Reserved"
+    "footer": "اشترك في نشرتنا الإخبارية",
+    "footer1": "احصل على إشعار حول النصائح والميزات الجديدة والأخبار الترويجية الحصرية لك فقط.",
+    "footer2": "يشترك",
+    "footer3": "معلومات عنا",
+    "footer4": "اتصل بنا",
+    "footer5": "الرعاية والشركاء",
+    "footer6": "أدع صديقا",
+    "footer7": "ساعد لدعم",
+    "footer8": "تعليق",
+    "footer9": "سياسة الخصوصية",
+    "footer10": "شروط الاستخدام والشرط",
+    "footer11": "@ 2023 Pet Opus Inc. جميع الحقوق محفوظة"
   }
 }
