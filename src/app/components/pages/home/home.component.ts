@@ -16,11 +16,11 @@ export class HomeComponent implements OnInit {
   srcIcon: string = './assets/images/icon-bg.png'
 
   bannerSliderOptions: OwlOptions = {
-    margin: 15,
+    margin: 0,
     loop: true,
     autoplay: true,
     autoplayHoverPause: false,
-    mouseDrag: false,
+    mouseDrag: true,
     dots: false,
     autoplayTimeout: 6000,
     autoplaySpeed: 4000,
@@ -172,5 +172,9 @@ export class HomeComponent implements OnInit {
 
   mouseEnter() {
     console.log("test")
+  }
+
+  isSmallScreen() {
+    return window.innerWidth <= 767;
   }
 }

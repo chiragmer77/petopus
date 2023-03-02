@@ -621,7 +621,7 @@ header .badge-danger {
 }
 
 .slide-1 {
-  background-image: url(assets/images/hero-bg.png);
+  background-image: url(assets/images/hero-bg-original.png);
 }
 
 .slide-2 {
@@ -1293,7 +1293,7 @@ footer .icon-mail {
 }
 
 .about-section h2 {
-  font-size: 58px;
+  font-size: 50px;
 }
 
 .about-section h4 {
@@ -3572,7 +3572,7 @@ header.sticky .logo img {
 
   .slide-1 {
     background-image: url(assets/images/hero-tablet_1_1000x1200.png);
-    background-position: 37% 20% !important;
+    background-position: 41% 20% !important;
   }
 
   .hero-section .item.slide-2,
@@ -3632,6 +3632,9 @@ header.sticky .logo img {
 }
 
 @media only screen and (max-width: 767px) {
+  .hide-on-small {
+    display: none;
+  }
   footer h6 {
     margin-bottom: 10px;
     margin-top: 30px;
@@ -3902,10 +3905,11 @@ header.sticky .logo img {
   .slide-2 {
     background-image: url(assets/images/slide-mb-2.png);
     text-align: left;
-    padding-top: 250px !important;
+    padding-top: 270px !important;
     background-size: contain !important;
     background-repeat: no-repeat;
     padding-bottom: 70px;
+    background-position: 10% -15% !important;
   }
 
   .slide-3 {
@@ -4045,7 +4049,7 @@ header.sticky .logo img {
 
   .hero-section .item.slide-1 {
     /* height: 790px; */
-    height: 675px;
+    height: 750px;
   }
 
   .slide-2,
@@ -4509,3 +4513,7 @@ header.sticky .logo img {
   padding: 15px;
   padding-left: 130px;
 }
+
+/* .owl-item.ng-tns-c37-0.ng-trigger.ng-trigger-autoHeight.ng-star-inserted {
+  margin-right: 0 !;
+} */

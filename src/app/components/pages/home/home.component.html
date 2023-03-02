@@ -36,7 +36,7 @@
                         <hr />
                         <p>{{'home.Herosection4' | translate}}</p>
                      </div>
-                     <div class="col-xl-5">
+                     <div class="col-xl-5" [ngClass]="{'hide-on-small': isSmallScreen()}">
                         <p>
                            {{ 'home.Herosection5' | translate }}
                         </p>
@@ -163,8 +163,8 @@
                </h2>
                <p class="sub-heading mb-5 wow fadeInUp" data-wow-delay="0.4s">
                   {{ 'home.Latestproduct1' | translate }}
-                  <br class="d-none d-md-block mb-5" />
-                  {{ 'home.Latestproduct2' | translate }}
+                  <!-- <br class="d-none d-md-block mb-5" />
+                  {{ 'home.Latestproduct2' | translate }} -->
                </p>
             </div>
          </div>

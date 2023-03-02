@@ -618,7 +618,7 @@ header .badge-danger {
 }
 
 .slide-1 {
-  background-image: url(../../assets/images/hero-bg.png);
+  background-image: url(../../assets/images/hero-bg-original.png);
 }
 
 .slide-2 {
@@ -630,7 +630,7 @@ header .badge-danger {
 }
 
 .main-heading {
-  font-size: 50px;
+  font-size: 40px;
   line-height: 76px;
   font-weight: 800;
   color: #1f1f39;
