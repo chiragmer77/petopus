@@ -160,7 +160,7 @@ h6 {
 }
 
 .section-padding {
-  padding: 60px 0;
+  padding: 100px 0;
 }
 
 .justify-content-center {
@@ -576,6 +576,7 @@ header .badge-danger {
   height: 100vh;
   display: flex;
   align-items: center;
+  background-position: 0% 23%;
 }
 
 .hero-section h1 {
@@ -633,7 +634,7 @@ header .badge-danger {
 }
 
 .main-heading {
-  font-size: 45px;
+  font-size: 40px;
   line-height: 70px;
   font-weight: 800;
   color: #1f1f39;
@@ -1320,7 +1321,7 @@ footer .icon-mail {
 .about p,
 .feature p {
   font-size: 16px;
-  font-weight: 600;
+  /* font-weight: 600; */
   line-height: 29px;
 }
 
@@ -3518,6 +3519,7 @@ header.sticky .logo img {
     left: 50%;
     width: 200px;
     margin-left: -100px;
+    z-index: 0;
   }
 
   .hero-section.about-section {
@@ -3854,6 +3856,7 @@ header.sticky .logo img {
     left: 50%;
     width: 110px;
     margin-left: -55px;
+    z-index: 0;
   }
 
   .secure-section {
