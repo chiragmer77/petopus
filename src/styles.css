@@ -576,7 +576,7 @@ header .badge-danger {
   height: 100vh;
   display: flex;
   align-items: center;
-  background-position: 0% 23%;
+  /* background-position: 0% 23%; */
 }
 
 .hero-section h1 {
